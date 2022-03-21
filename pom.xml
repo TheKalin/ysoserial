@@ -22,8 +22,8 @@
 				<version>3.5.1</version>
 				<configuration>
 					<!-- maximize compatibility -->
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>7</source>
+					<target>7</target>
 					<!-- ignore noisy internal api warnings -->
                     <compilerArgument>-XDignore.symbol.file</compilerArgument>
                     <fork>true</fork>
@@ -335,6 +335,11 @@
             <groupId>org.apache.click</groupId>
             <artifactId>click-nodeps</artifactId>
             <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-framework</artifactId>
+            <version>4.1.6</version>
         </dependency>
 	</dependencies>
 
